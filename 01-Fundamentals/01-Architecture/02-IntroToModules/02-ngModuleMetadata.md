@@ -13,7 +13,7 @@ An **NgModule** is defined by a class decorated with `@NgModule()`.  The `@NgMod
 ---
 
 ## Example:
-```js
+```typescript
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 

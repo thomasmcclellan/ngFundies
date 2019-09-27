@@ -15,7 +15,7 @@ For any dependency that you need in your app, you must register a provider with 
 When `Angular` creates a new instance of a component class, it determines which services or other dependencies that component needs y looking at the constructor parameter types.  For example, the constructor of `HeroListComponent` needs `HeroService`.
 
 `src/app/hero-list.component.ts` (constructor):
-```js
+```typescript
 constructor(private service: HeroService) { }
 ```
 
@@ -28,7 +28,7 @@ You must register at least one _provider_ of any service you are going to use.  
 
   > By default, the `Angular CLI` command `ng generate service` registers a provider with the root injector for your service by including provider metadata in the `@Injectable()` decorator.  The tutorial uses this method to register the provider of `HeroService` class definition.
   >
-  > ```js
+  > ```typescript
   > @Injectable({
   >   providedIn: 'root'
   > })
@@ -38,7 +38,7 @@ You must register at least one _provider_ of any service you are going to use.  
 
   > When you register a provider with a specific NgModule, the same instance of a service is available to all components in that NgModule.  To register at this level, use the providers property of the `@NgModule()` decorator.
   > 
-  > ```js
+  > ```typescript
   > @NgModule({
   >   providers: [
   >     BackendService,
@@ -49,7 +49,7 @@ You must register at least one _provider_ of any service you are going to use.  
 
   > When you register a provider at the component level, you get a new instance of the service with each new instance of that component.  At the component level, register a service provider in the `providers` property of the `@Component()` metadata.
   >
-  > ```js
+  > ```typescript
   > @Component({
   >   selector: 'app-hero-list',
   >   templateUrl: './hero-list.component.html',

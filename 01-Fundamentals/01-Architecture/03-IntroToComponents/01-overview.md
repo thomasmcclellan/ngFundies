@@ -7,7 +7,7 @@ You define a component's application logic==what it does to support the view--in
 For example, `HeroListComponent` has a heroes property that holds an array of heroes.  Its `selectHero()` method sets a `selectedHero` property when the user clicks to choose a hero from that list.  The component acquires the heroes from a service, which is a `TypeScript` [parameter property](http://www.typescriptlang.org/docs/handbook/classes.html#parameter-properties) on the constructor.  The service is provided to the component through the **DI** system.
 
 `src/app/hero-list.component.ts` (class):
-```js
+```typescript
 export class HeroListComponent implements OnInit {
   heroes: Hero[]
   selectedHero: Hero

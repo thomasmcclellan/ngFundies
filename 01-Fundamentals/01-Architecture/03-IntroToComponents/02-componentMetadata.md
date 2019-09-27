@@ -7,7 +7,7 @@ The metadata for a component tells `Angular` where to get the major building blo
 In addition to containing or pointing to the template, the `@Component` metadata configures, for example, how the component can be referenced in `HTML` and what services it requires.  
 
 `src/app/hero-list.component.ts` (metadata):
-```js
+```typescript
 @Component({
   selector: 'app-hero-list',
   templateUrl: './hero-list.component.html',

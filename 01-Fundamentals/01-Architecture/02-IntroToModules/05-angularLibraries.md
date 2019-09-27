@@ -3,17 +3,17 @@
 `Angular` loads as a collection of `JS` modules.  You can think of them as _library modules_.  Each `Angular` library name begins with the `@angular` prefix.  Install them with the node package manager (`npm`) and import parts of them with `JS` `import` statements.
 
 For example, import `Angular`'s `Component` decorator from the `@angular/core` library like this:
-```js
+```typescript
 import { Component } from '@angular/core';
 ```
 
-You also import **NgModules** from `Angular` _libraries_ using `JS` `import` statements.  For example, the following code imports the `BrowserModule` NgModule from the `platform-browser` library:
-```js
+You also import **NgModules** from `Angular` _libraries_ using `typescript` `import` statements.  For example, the following code imports the `BrowserModule` NgModule from the `platform-browser` library:
+```typescript
 import { BrowserModule } from '@angular/platform-browser';
 ```
 
 In this example of the simple _root module_ above, the application module needs material from within `BrowserModule`.  To access that material, add it to the `@NgModule` metadata `imports` like this:
-```js
+```typescript
 imports: [ BrowserModule ],
 ```
 

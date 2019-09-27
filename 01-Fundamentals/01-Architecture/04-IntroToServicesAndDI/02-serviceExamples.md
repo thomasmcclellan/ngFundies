@@ -3,7 +3,7 @@
 Here's an example of a service class that logs to the browser console:
 
 `src/app/logger.service.ts` (class):
-```js
+```typescript
 export class Logger {
   log(msg: any) { console.log(msg) }
   error(msg: any) { console.log(msg) }
@@ -14,7 +14,7 @@ export class Logger {
 **Services** can depend on other services.  For example, here's a `HeroService` that depends on the `Logger` service, and also use `BackendService` to get heroes.  That service in turn might depend on the `HttpClient` service to fetch heroes asynchronously from a server.
 
 `src/app/hero.service.ts` (class):
-```js
+```typescript
 export class HeroService {
   private heroes: Hero[] = []
 
