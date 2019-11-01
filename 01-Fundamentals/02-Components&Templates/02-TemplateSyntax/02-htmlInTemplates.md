@@ -8,4 +8,4 @@ You can extend the `HTML` vocabulary of your template with components and direct
 
 ---
 
-[Angular Docs](https://angular.io/guide/template-syntax)
+[Angular Docs](https://angular.io/guide/template-syntax#html-in-templates)

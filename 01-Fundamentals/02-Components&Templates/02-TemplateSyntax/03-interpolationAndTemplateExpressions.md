@@ -113,4 +113,4 @@ Dependent values should not change during a single turn of the event loop.  If a
 
 ---
 
-[Angular Docs](https://angular.io/guide/template-syntax)
+[Angular Docs](https://angular.io/guide/template-syntax#interpolation-and-template-expressions)

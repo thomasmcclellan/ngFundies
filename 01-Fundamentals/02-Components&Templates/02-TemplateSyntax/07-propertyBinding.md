@@ -228,4 +228,4 @@ Interpolation handles the `<script>` tags different than property binding but bo
 
 ---
 
-[Angular Docs](https://angular.io/guide/template-syntax)
+[Angular Docs](https://angular.io/guide/template-syntax#property-binding-property)

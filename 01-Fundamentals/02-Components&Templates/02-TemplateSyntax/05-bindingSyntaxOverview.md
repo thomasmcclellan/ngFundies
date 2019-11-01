@@ -91,4 +91,4 @@ To control the state of the button, set the `disabled` _property_.
 
 ---
 
-[Angular Docs](https://angular.io/guide/template-syntax)
+[Angular Docs](https://angular.io/guide/template-syntax#binding-syntax-an-overview)

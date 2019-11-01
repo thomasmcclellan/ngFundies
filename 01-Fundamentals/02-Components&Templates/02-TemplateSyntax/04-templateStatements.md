@@ -43,4 +43,4 @@ As with expressions, avoid writing complex template statements.  A method call o
 
 ---
 
-[Angular Docs](https://angular.io/guide/template-syntax)
+[Angular Docs](https://angular.io/guide/template-syntax#template-statements)

@@ -13,4 +13,4 @@ The target of a **data-binding** is something in the `DOM`.  Depending on the bi
 
 ---
 
-[Angular Docs](https://angular.io/guide/template-syntax)
+[Angular Docs](https://angular.io/guide/template-syntax#binding-types-and-targets)
